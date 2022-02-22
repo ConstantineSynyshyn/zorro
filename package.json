@@ -1,0 +1,21 @@
+{
+  "name": "zorro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-react": "^7.16.7",
+    "@webpack-cli/generators": "^2.4.2"
+  },
+  "dependencies": {
+    "@babel/standalone": "^7.17.6"
+  }
+}
